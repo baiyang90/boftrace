@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>107, 17</value>
+  </metadata>
+  <metadata name="create_time1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="massage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="create_time.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="info.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="by_DBTBhis.Text" xml:space="preserve">
+    <value>prod_date
+station_no
+sm_plan_no
+pono
+heat_no
+smelt_mode
+st_no
+st_no_desc
+prod_shift_no
+prod_shift_group
+scrap_bucket_id
+scrap_weight
+iron_ladle_no
+iron_no
+tre_tpc_no
+moltiron_wt
+out_steel_wt
+start_of_heat
+hm_chrgd_time
+tap_start_time
+tap_end_time
+end_of_heat
+blow_time
+reblow_num
+blow_time1
+blow_start_time1
+blow_end_time1
+blow_time2
+blow_start_time2
+blow_end_time2
+blow_time3
+blow_start_time3
+blow_end_time3
+blow_time4
+blow_start_time4
+blow_end_time4
+blow_time5
+blow_start_time5
+blow_end_time5
+steel_time
+o2_sum_comsume
+leave_temp
+out_steel_temp_time
+furnace_era
+furnace_age
+steel_hole_age
+o2_lance_no_a
+o2_lance_age_a
+o2_lance_no_b
+o2_lance_age_b
+fit_lance_no
+fit_lance_age
+bttm_ar_comsume_sum
+bttm_n_comsume_sum
+tsc_time
+tsc_temp
+tsc_c
+tso_time
+tso_temp
+tso_c
+tso_o
+slag_start_time
+slag_end_time
+spatter_slag_time
+slag_n_comsume
+na_switch_time
+ar_duration
+n2_duration
+after_stiring_duration
+ladle_shell_wt
+ladle_gross_wt
+ladle_no
+ladle_level
+co_return_time
+total_install_aim
+meas_temp_time
+t_steel_temp
+c_pdi
+mn_aim_tele
+p_pdi
+elm_act_s
+o2_s_datetime
+o2_e_datetime
+ar_blow_pre
+scrap_process_len
+o2_gun_comsume
+bof_study_remain3
+slipper_times
+inn_nozzle_num
+ladle_temp_time
+ladle_temp
+ext_item1
+ext_item2
+ext_item3
+ext_item4
+ext_item5
+ext_item6
+ext_item7
+ext_item8
+ext_item9
+ext_item10
+steel_yield
+gas_comsume_ny
+steam_return_wt_ny
+water_wt_ny
+n_con_ny
+steam_comsume_ny
+create_time
+status
+st_si
+n2_start_time1
+n2_end_time1
+n2_volume
+reblow_duration
+iron_c
+iron_si
+iron_mn
+iron_p
+iron_s
+blow_n2
+ext_item12
+ext_item13
+ext_item14
+ext_item15
+ext_item16
+ext_item17
+ext_item18
+ext_item19
+ext_item20</value>
+  </data>
+  <data name="textBox36.Text" xml:space="preserve">
+    <value>投弹测量氧含量
+
+钢水收得率
+
+转煤总回收量
+
+蒸汽回收总量
+
+蒸发冷工业水流量
+
+蒸发冷氮气流量
+
+蒸发冷蒸汽使用量
+
+创建时间
+
+标志位（发送）
+
+一倒钢水成分[SI]
+
+混吹氮开始时刻
+
+混吹氮结束时刻
+
+混吹氮量
+
+补吹持续时间
+
+铁水碳
+
+铁水硅
+
+铁水锰
+
+铁水磷
+
+铁水硫
+
+吹氮总耗量
+
+增加预留项12
+
+增加预留项13
+
+增加预留项14
+
+增加预留项15
+
+钢包包龄</value>
+  </data>
+  <data name="textBox63.Text" xml:space="preserve">
+    <value>一倒测温时刻
+
+一倒钢水温度
+
+一倒钢水成分[C]
+
+一倒钢水成分[Mn]
+
+一倒钢水成分[P]
+
+一倒钢水成分[S]
+
+纯供氧开始时刻
+
+纯供氧结束时刻
+
+开吹枪位
+
+过程枪位
+
+拉碳枪位
+
+转炉零位
+
+滑板次数
+
+内水口次数
+
+空钢包测温时刻
+
+钢包温度
+
+铁水温度
+
+铁水罐加入废钢量
+
+补吹次数
+
+补吹含氧量
+
+生铁类重量
+
+钢边类重量
+
+压块类重量
+
+自产类重量
+
+冶炼周期</value>
+  </data>
+  <data name="textBox90.Text" xml:space="preserve">
+    <value>副枪号
+
+副枪枪龄
+
+底吹氩气总消耗量
+
+底吹氮气总消耗量
+
+吹炼过程TSC测量时刻
+
+吹炼过程TSC测量温度
+
+吹炼过程TSC测量定碳含量
+
+吹炼过程TSO测量时刻
+
+吹炼过程TSO测量温度
+
+吹炼过程TSO测量定碳含量
+
+吹炼过程TSO测量定氧含量
+
+开始溅渣时刻
+
+停止溅渣时刻
+
+总溅渣时间
+
+溅渣氮耗量
+
+氮氩切换时间
+
+底吹吹氩持续时间
+
+底吹吹氮持续时间
+
+后搅持续时间
+
+钢包皮重
+
+钢包总重
+
+钢包号
+
+钢包等级
+
+转炉煤气回收时间(时间)
+
+总装入量</value>
+  </data>
+  <data name="textBox117.Text" xml:space="preserve">
+    <value>吹炼1开始时刻
+
+吹炼1结束时刻
+
+吹炼2持续时间
+
+吹炼2开始时刻
+
+吹炼2结束时刻
+
+吹炼3持续时间
+
+吹炼3开始时刻
+
+吹炼3结束时刻
+
+吹炼4持续时间
+
+吹炼4开始时刻
+
+吹炼4结束时刻
+
+吹炼5持续时间
+
+吹炼5开始时刻
+
+吹炼5结束时刻
+
+出钢持续时间
+
+总氧气消耗量
+
+出钢钢水温度
+
+出钢测温时刻
+
+炉代
+
+炉龄
+
+出钢口次数
+
+A氧枪号
+
+A氧枪枪龄
+
+B氧枪号
+
+B氧枪枪龄</value>
+  </data>
+  <data name="textBox143.Text" xml:space="preserve">
+    <value>生产日期
+
+炼钢计划号
+
+计划号
+
+制造命令号
+
+熔炼号
+
+冶炼方式
+
+出钢记号
+
+出钢记号描述
+
+班次
+
+班别
+
+废钢斗号
+
+废钢投入量
+
+铁包号
+
+铁次号
+
+罐次号
+
+铁水量
+
+钢水重量
+
+炉次开始时刻
+
+铁水装入终了时刻
+
+出钢开始时刻
+
+出钢结束时刻
+
+炉次结束时刻
+
+吹炼持续时间
+
+补吹次数
+
+吹炼1持续时间</value>
+  </data>
+</root>
